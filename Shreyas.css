@@ -1,0 +1,76 @@
+
+body {
+    background: #b1d3fa;
+    font-family: URW Chancery L, cursive;
+    margin: 0;
+}
+.cover-pic {
+    width: 100%;
+}
+.heading {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    color: white;
+    font-size: 65px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.notable-works {
+    background: #f8b7ff;
+    padding: 20px;
+    row-gap: 25px;
+}
+.profile-pic {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.profile-content {
+    margin: auto;
+    width: 100%;
+    border-radius: 20px;
+    background: #e0efff;
+    padding: 25px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.work-pic {
+    height: 320px;
+    width: 230px;
+}
+
+.col-gap {
+    column-gap: 50px;
+    margin: 50px;
+}
+.row-gap {
+    row-gap: 20px;
+}
+.insta-link {
+    text-decoration: none;
+    color: #c7387c;
+    border: 2px solid #e66fa8;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.insta-pic {
+    width: 20px;
+}
